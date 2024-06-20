@@ -29,7 +29,7 @@ function App() {
       </header>
       <main>
         <ParkingLotForm />
-        <ParkingLotList />
+        <ParkingLotList parkingLotItems={parkingLotItems}/>
       </main>
     </div>
   );
