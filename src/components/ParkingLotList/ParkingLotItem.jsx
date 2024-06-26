@@ -8,7 +8,7 @@ export default function ParkingLotItem({
     priority, 
     link, 
     description
-}) {
+})  { 
     function handleDelete() {
         deleteItem(id);
     }

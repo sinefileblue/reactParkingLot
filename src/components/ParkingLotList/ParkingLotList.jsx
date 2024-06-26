@@ -2,7 +2,7 @@ import React from 'react';
 import ParkingLotItem from './ParkingLotItem';
 import './ParkingLot.css';
 
-export default function ParkingLotList({ parkingLotItems}) {
+export default function ParkingLotList({ parkingLotItems, deleteItem }) {
 
     console.log(parkingLotItems);
     let ParkingLotItemsJsxList = parkingLotItems.map(item => 

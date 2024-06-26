@@ -1,15 +1,21 @@
 # Browser Parking Lot 
 
-The objective of this project is to store useful links with a todo item that can be prioritized using the labels HIGH, MEDIUM, LOW.   
+Each task includes:
 
-An item contains:  
+Link: The URL to the resource
+Description: A brief summary of the link
+Date Created: When the task was added
+Priority: Low, Medium, High
 
-- a link   
-- a short text description  
-- date of creation   
-- priority label (`HIGH`, `MEDIUM`, `LOW`)  
+Example
+    Link: https://example.com
+    Description: Example website for reference
+    Date Created: 2024-06-26
+    Priority: MEDIUM
 
-The Browser Parking Lot enables you to eliminate tabs in your browser. Therefore, we reduce memory consumption of your computer, because using the browser as a todo list is counterproductive.  
+Share your links and descriptions, and it will help you keep them organized.
+
+
 
 ## User stories  
 
