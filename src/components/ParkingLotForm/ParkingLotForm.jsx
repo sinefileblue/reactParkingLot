@@ -39,6 +39,11 @@ export default function ParkingLotForm({ addItem }) {
       const [y, M,, d] = date.split('-');
       const formattedDate = `${M}/${d}/${y}`;
       addItem(formattedDate, link, description, priority);
+
+      setDate('');
+      setLink('');
+      setDescription('');
+      setPriority(PRIORITIES.Medium);
     }
 
   return (
