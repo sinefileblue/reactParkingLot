@@ -33,8 +33,17 @@ export default function ParkingLotForm() {
       setPriority(e.target.value);
     }
 
+    function handleSubmit(e) {
+      e.preventDefault();
+      console.log(date, link, description, priority);
+    }
+
   return (
-    <Form data-bs-theme="dark" className="parking-lot-form">
+    <Form
+    data-bs-theme="dark"
+    className="parking-lot-form"
+    onSubmit={handleSubmit}
+    >
       <FormGroup className="parking-lot-row">
         <Label hmtlFor= "link-date">Date</Label>
         <Input
