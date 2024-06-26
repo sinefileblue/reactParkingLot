@@ -28,6 +28,10 @@ export default function ParkingLotForm() {
     function handleDescriptionChange(e) {
       setDescription(e.target.value);
     }
+    
+    function handlePriorityChange(e) {
+      setPriority(e.target.value);
+    }
 
   return (
     <Form data-bs-theme="dark" className="parking-lot-form">
@@ -70,6 +74,7 @@ export default function ParkingLotForm() {
               name="radio-priority"
               value={PRIORITIES.High}
               checked={priority === PRIORITIES.High}
+              onChange={handlePriorityChange}
               id="prio-high"
           />
           {'  '}
@@ -81,6 +86,7 @@ export default function ParkingLotForm() {
               name="radio-priority"
               value={PRIORITIES.Medium}
               checked={priority === PRIORITIES.Medium}
+              onChange={handlePriorityChange}
               id="prio-medium"
           />
           {'  '}
@@ -92,6 +98,7 @@ export default function ParkingLotForm() {
               name="radio-priority"
               value={PRIORITIES.Low}
               checked={priority === PRIORITIES.Low}
+              onChange={handlePriorityChange}
               id="prio-low"
           />
           {'  '}
