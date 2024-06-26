@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/reactParkingLot/static/css/main.7681167f.css",
+    "main.css": "/reactParkingLot/static/css/main.def7e63b.css",
     "main.js": "/reactParkingLot/static/js/main.69086acd.js",
     "index.html": "/reactParkingLot/index.html",
-    "main.7681167f.css.map": "/reactParkingLot/static/css/main.7681167f.css.map",
+    "main.def7e63b.css.map": "/reactParkingLot/static/css/main.def7e63b.css.map",
     "main.69086acd.js.map": "/reactParkingLot/static/js/main.69086acd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7681167f.css",
+    "static/css/main.def7e63b.css",
     "static/js/main.69086acd.js"
   ]
 }
