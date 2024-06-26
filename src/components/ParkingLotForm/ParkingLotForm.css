@@ -1,0 +1,10 @@
+.parking-lot-form { 
+    margin: 2rem; 
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);;
+    background-color: #111111; 
+    padding: 2rem; 
+    text-align: left; 
+
+}   
