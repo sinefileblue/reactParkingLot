@@ -6,7 +6,7 @@ export default function ParkingLotList({ parkingLotItems}) {
 
     console.log(parkingLotItems);
     let ParkingLotItemsJsxList = parkingLotItems.map(item => 
-    <ParkingLotItem key={item.id} {...item}/>
+    <ParkingLotItem key={item.id} deleteItem={deleteItem} {...item} />
 );
 
   return (
