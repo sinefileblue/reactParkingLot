@@ -23,6 +23,19 @@ export default function App() {
       }
     ]);
 
+    function addItem(date, link, description, priority) {
+      setParkingLotItems((oldItems) => [
+        ...oldItems,
+        {
+          id: nanoid(),
+          date,
+          description,
+          link,
+          priority
+        }
+      ]);
+    }
+
     return (
       <div className="App">
         <header>
@@ -30,8 +43,8 @@ export default function App() {
           <p>Kiss those tabs goodbye.</p>
         </header>
         <main>
-          <ParkingLotForm />
-          <ParkingLotList parkingLotItems={parkingLotItems}/>
+          <ParkingLotForm addItem={addItem} />
+          <ParkingLotList parkingLotItems={parkingLotItems} />
         </main>
       </div>
     );
